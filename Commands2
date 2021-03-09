@@ -1,0 +1,248 @@
+Last login: Thu Mar  4 18:46:08 on ttys001
+➜  ~ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/if/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/if/.ssh/id_rsa.
+Your public key has been saved in /Users/if/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:6Bgin22hp6G1j3F5gCN/i+xYVRUPI7Z0RI4B1zDNe2o if@mstl018624.home
+The key's randomart image is:
++---[RSA 3072]----+
+|    ..OBO.       |
+|     + X++       |
+|      + ...      |
+|   . . .. .      |
+|o + = . So       |
+| = B B  E        |
+|  X O o.         |
+| * % o           |
+|o.B.o            |
++----[SHA256]-----+
+➜  ~ ls -la
+total 200
+drwxr-xr-x+ 29 if    staff    928  4 mrt 19:01 .
+drwxr-xr-x   5 root  admin    160  1 jan  2020 ..
+-r--------   1 if    staff      7 14 feb 11:46 .CFUserTextEncoding
+-rw-r--r--@  1 if    staff   8196  4 mrt 18:58 .DS_Store
+drwx------   2 if    staff     64  4 mrt 17:56 .Trash
+drwxr-xr-x   3 if    staff     96  4 mrt 14:13 .config
+-rw-r--r--   1 if    staff     63  4 mrt 18:40 .gitconfig
+drwxr-xr-x  15 if    staff    480  4 mrt 14:14 .iterm2
+-rwxr-xr-x   1 if    staff   7216  4 mrt 14:14 .iterm2_shell_integration.zsh
+-rw-------   1 if    staff      0  4 mrt 16:38 .node_repl_history
+drwxr-xr-x  21 if    staff    672  4 mrt 15:53 .oh-my-zsh
+drwx------   5 if    staff    160  4 mrt 19:01 .ssh
+drwxr-xr-x   4 if    staff    128  4 mrt 12:22 .vscode
+-rw-r--r--   1 if    staff    116  4 mrt 16:40 .yarnrc
+-rw-r--r--   1 if    staff  47950  4 mrt 15:54 .zcompdump-MSTL018624-5.8
+-rw-------   1 if    staff   4161  4 mrt 19:01 .zsh_history
+drwx------   8 if    staff    256  4 mrt 16:21 .zsh_sessions
+-rw-r--r--   1 if    staff   3686  4 mrt 15:53 .zshrc
+-rw-r--r--   1 if    staff    100  4 mrt 14:14 .zshrc.pre-oh-my-zsh
+drwx------+  3 if    staff     96 14 feb 11:46 Desktop
+drwx------+  6 if    staff    192  4 mrt 18:58 Documents
+drwx------+  5 if    staff    160  4 mrt 16:36 Downloads
+drwx------@ 63 if    staff   2016  4 mrt 15:44 Library
+drwx------   4 if    staff    128  4 mrt 11:11 Movies
+drwx------+  3 if    staff     96 14 feb 11:46 Music
+drwx------+  4 if    staff    128 14 feb 12:27 Pictures
+drwxr-xr-x+  4 if    staff    128 14 feb 11:46 Public
+drwxr-xr-x   3 if    staff     96  4 mrt 16:40 node_modules
+-rw-r--r--   1 if    staff     86  4 mrt 16:40 yarn.lock
+➜  ~ cd .ssh
+➜  .ssh ls -la
+total 24
+drwx------   5 if  staff   160  4 mrt 19:01 .
+drwxr-xr-x+ 29 if  staff   928  4 mrt 19:02 ..
+-rw-------   1 if  staff  2602  4 mrt 19:01 id_rsa
+-rw-r--r--   1 if  staff   572  4 mrt 19:01 id_rsa.pub
+-rw-r--r--   1 if  staff   405  4 mrt 19:00 known_hosts
+➜  .ssh more id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDNVwUGTQOiMm4c4wtJ24nvuDDyH0S++Aewzpelntko9ZHOpOBv2szVxUDm2iOf/AF3r2NNGhT0WifQeqsk5Nq0okDdLoK5C3xDjvlk2J5S4HRlcDSxWjF6zuMFhhm6hinm8lPZ3YfTsmr/H08wKHbLY+P+q/EEhQqqu0Gm8YeqAMhEiVObizbyh7V5+iQ248iZVWDFe0bLrs73yjVWFkyyTejtASdU2K4FXbTUmCyRWtL4n0NISbzfzHyhTY/K9WXlxHzUy9c3rlgIqv82JHN05wQNkRbqY+IzGh/GLvYs0hm9si0TgkUG8t5accP4EpbL0gOrQvyCqRISDckdO+N94BbAjWegLKJGGsQvQrsAXsITRyiWxXJSaINp15YILqFj1ytIe8SArZ0hgqvjZ0gaNeciQx/eYsXwQsRo+L6wMUamO/1tujwuPqz18FPVChGccpZy67gKRVQRAqOo2JcO9sFpmTDTsjPTIsRFZrDubiyLlpFlvEOph9p/kxzIuAM= if@mstl018624.home
+...skipping...
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDNVwUGTQOiMm4c4wtJ24nvuDDyH0S++Aewzpelntko9ZHOpOBv2szVxUDm2iOf/AF3r2NNGhT0WifQeqsk5Nq0okDdLoK5C3xDjvlk2J5S4HRlcDSxWjF6zuMFhhm6hinm8lPZ3YfTsmr/H08wKHbLY+P+q/EEhQqqu0Gm8YeqAMhEiVObizbyh7V5+iQ248iZVWDFe0bLrs73yjVWFkyyTejtASdU2K4FXbTUmCyRWtL4n0NISbzfzHyhTY/K9WXlxHzUy9c3rlgIqv82JHN05wQNkRbqY+IzGh/GLvYs0hm9si0TgkUG8t5accP4EpbL0gOrQvyCqRISDckdO+N94BbAjWegLKJGGsQvQrsAXsITRyiWxXJSaINp15YILqFj1ytIe8SArZ0hgqvjZ0gaNeciQx/eYsXwQsRo+L6wMUamO/1tujwuPqz18FPVChGccpZy67gKRVQRAqOo2JcO9sFpmTDTsjPTIsRFZrDubiyLlpFlvEOph9p/kxzIuAM= if@mstl018624.home
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+➜  .ssh clear
+➜  .ssh cd ~
+➜  ~ clear
+➜  ~ history -0
+omz_history:fc:14: event not found: -0
+omz_history:fc:14: event not found: -0
+➜  ~ history
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  brew help
+    3  brew search
+    4  brew doctor
+    5  echo $PATH
+    6  pwd
+    7  ls -la
+    8  brew
+    9  brew install iterm2
+   10  curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+   11  exec $SHELL
+   12  brew install git
+   13  brew install node
+   14  node --version
+   15  brew install zsh
+   16  which zsh
+   17  echo $SHELL
+   18  nano /etc/shelss
+   19  nano /etc/shells
+   20  sudo nano /etc/shells
+   21  pwd
+   22  ls -la
+   23  more .zshrc
+   24  ls -la
+   25  cat .zshrc
+   26  cd /usr/local/
+   27  ls
+   28  cd hom
+   29  cd Cellar
+   30  ls
+   31  brew list
+   32  echo $ shell
+   33  echo $shell
+   34  cd /usr/local/bin
+   35  ls
+   36  exho $PATH
+   37  echo $PATH
+   38  echo $SHELL
+   39  whichzsh
+   40  which zsh
+   41  which zsh version
+   42  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   43  pwd
+   44  ls -la
+   45  cd /usr/local/share
+   46  ls -la
+   47  [oh-my-zsh] Insecure completion-dependent directories detected:\ndrwxrwxr-x  7 if  admin  224  4 mrt 14:20 /usr/local/share/zsh\ndrwxrwxr-x  5 if  admin  160  4 mrt 14:15 /usr/local/share/zsh/site-functions\n\n[oh-my-zsh] For safety, we will not load completions from these directories until\n[oh-my-zsh] you fix their permissions and ownership and restart zsh.\n[oh-my-zsh] See the above list for directories with group or other writability.\n\n[oh-my-zsh] To fix your permissions you can do so by disabling\n[oh-my-zsh] the write permission of "group" and "others" and making sure that the\n[oh-my-zsh] owner of these directories is either root or your current user.\n[oh-my-zsh] The following command may help:\n[oh-my-zsh]     compaudit | xargs chmod g-w,o-w\n\n[oh-my-zsh] If the above didn't help or you want to skip the verification of\n[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to\n[oh-my-zsh] "true" before oh-my-zsh is sourced in your zshrc file.\nq
+   48  compaudit | xargs chmod g-w,o-w zsh
+   49  cd zsh
+   50  ls -la
+   51  compaudit | xargs chmod g-w,o-w site-functions
+   52  cd ..
+   53  compaudit | xargs chmod g-w,o-w zsh
+   54  exit
+   55  history
+   56  zsh--version
+   57  zsh --version
+   58  pwd
+   59  ls -la
+   60  more .zsh
+   61  more .zshrc
+   62  clear
+   63  more .zshrc
+   64  omz update
+   65  ls
+   66  node
+   67  brew install yarn
+   68  yarn
+   69  git config
+   70  git
+   71  git config --list
+   72  ls-la
+   73  ls -la
+   74  git --verison
+   75  git --version
+   76  git config --global user.name "Guido Olijslager"
+   77  git config --global user.email "golijslager@gmail.com"
+   78  git config --list
+   79  pwd
+   80  cd Documents/Local-Repo
+   81  ls -la
+   82  touch .project
+   83  touch calc.py
+   84  git init
+   85  ls -la
+   86  git status
+   87  touch .gitignore
+   88  git status
+   89  git add -A
+   90  git status
+   91  git reset
+   92  git status
+   93  git add -A
+   94  git status
+   95  git commit -m "Initial Commit"
+   96  git status
+   97  git log
+   98  cd ..
+   99  cd Cloned-Repo
+  100  ls -la
+  101  git@github.com:golijslager/try_git.git
+  102  git clone git@github.com:golijslager/try_git.git
+  103  ssh-keygen
+  104  ls -la
+  105  cd .ssh
+  106  ls -la
+  107  more id_rsa.pub
+  108* git clone git@github.com:golijslager/try_git.git
+  109* ls -la
+  110* cd try_git
+  111* ls -la
+  112  clear
+  113  cd ~
+  114  clear
+  115* ls -la
+  116* touch calc.py
+  117* pwd
+  118* git status
+  119* git add -A
+  120* git commit -m "Init"
+  121* git log
+  122* git remote -v
+  123* git branch -a
+  124* git diff
+  125* git status
+  126* git add -A
+  127* git status
+  128* git commit -m "Init2"
+  129* git pull origin master
+  130* git push origin master
+  131* git branch calc-devide
+  132* git branch
+  133* git checkout calc-devide
+  134* git branch
+  135* git status
+  136* git add -A
+  137* git commit -m "Init3"
+  138* git status
+  139* git push -u origin calc-devide
+  140* git branch -a
+  141* git checkout master
+  142* git pull origin master
+  143* git branch --merged
+  144* git merge calc-devide
+  145* git push origin master
+  146* git branch --merged
+  147* git branch -d calc-devide
+  148* git branch -a
+  149* git push origin --delete calc-devide
+  150* git branch -a
+  151* hstory
+  152* history 0
+  153  history -0
+➜  ~
